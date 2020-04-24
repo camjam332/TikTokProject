@@ -75,7 +75,6 @@ void ofApp::draw(){
     
     fbo.begin();
     ofClear(0);
-    //ofBackground(255);
     for(int i = 0; i < tex.getHeight(); i += intSlider)
         {
             ofPolyline polyline;
