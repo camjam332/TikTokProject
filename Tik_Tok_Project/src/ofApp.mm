@@ -19,7 +19,7 @@ void ofApp::setup(){
     ofClear(255, 255, 255);
     tex.allocate(grabber.getWidth(), grabber.getHeight(), GL_RGB);
     
-    sliderGroup.add(intSlider.set("int slider", 2, 2, 8));
+    sliderGroup.add(intSlider.set("int slider", 4, 2, 8));
     sliderGroup.add(floatSliderX.set("float slider X", 1, 1, 30));
     sliderGroup.add(floatSliderY.set("float slider Y", 1, 1, 30));
     
