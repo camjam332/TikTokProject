@@ -86,8 +86,6 @@ void ofApp::draw(){
                 polyline.addVertex(j , i + ofMap(brightness, 0, 255, 0, -64));
             }
             polyline = polyline.getSmoothed(10);
-            //polyline.scale(floatSliderX,floatSliderY);
-            //ofSetColor(0);
             polyline.draw();
         }
     fbo.end();
@@ -95,57 +93,10 @@ void ofApp::draw(){
     shader.begin();
     shader.setUniformTexture("imageMask", fbo.getTexture(), 1);
     
-    //fbo.draw(0,0);
-    //tex.draw(0, 0, ofGetWidth(), ofGetHeight());
     grabber.draw(0, 0, ofGetWidth(), ofGetHeight());
 
     shader.end();
     
     gui.draw();
     
-}
-
-//--------------------------------------------------------------
-void ofApp::keyPressed(int key){
-    
-}
-
-//--------------------------------------------------------------
-void ofApp::keyReleased(int key){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::mouseMoved(int x, int y){
-    
-}
-
-//--------------------------------------------------------------
-void ofApp::mouseDragged(int x, int y, int button){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::mousePressed(int x, int y, int button){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::mouseReleased(int x, int y, int button){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::windowResized(int w, int h){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::gotMessage(ofMessage msg){
-
-}
-
-//--------------------------------------------------------------
-void ofApp::dragEvent(ofDragInfo dragInfo){ 
-
 }
