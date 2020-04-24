@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-               BuildableName = "05_alphaMasking.app"
-               BlueprintName = "05_alphaMasking"
-               ReferencedContainer = "container:05_alphaMasking.xcodeproj">
+               BuildableName = "Tik_Tok_Project.app"
+               BlueprintName = "Tik_Tok_Project"
+               ReferencedContainer = "container:Tik_Tok_Project.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "05_alphaMasking.app"
-            BlueprintName = "05_alphaMasking"
-            ReferencedContainer = "container:05_alphaMasking.xcodeproj">
+            BuildableName = "Tik_Tok_Project.app"
+            BlueprintName = "Tik_Tok_Project"
+            ReferencedContainer = "container:Tik_Tok_Project.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "05_alphaMasking.app"
-            BlueprintName = "05_alphaMasking"
-            ReferencedContainer = "container:05_alphaMasking.xcodeproj">
+            BuildableName = "Tik_Tok_Project.app"
+            BlueprintName = "Tik_Tok_Project"
+            ReferencedContainer = "container:Tik_Tok_Project.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "05_alphaMasking.app"
-            BlueprintName = "05_alphaMasking"
-            ReferencedContainer = "container:05_alphaMasking.xcodeproj">
+            BuildableName = "Tik_Tok_Project.app"
+            BlueprintName = "Tik_Tok_Project"
+            ReferencedContainer = "container:Tik_Tok_Project.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
